@@ -14,7 +14,7 @@ layout: home
   <h2>About</h2>
   <div class="about-content">
     <p>Hi there, I'm Matt! I'm a recent honors grad in Statistics & Data Science and Economics from UC Santa Barbara.</p>
-    <p>I'm currently working in data processing at NFP, an Aon Company, building datasets and support data-driven analysis to help inform business decisions.</p>
+    <p>I'm currently working in data processing at NFP, an Aon Company, building datasets and supporting data-driven analysis to help inform business decisions.</p>
     <p>When I'm not analyzing data, you'll find me exploring the mountains!</p>
   </div>
 </section>
