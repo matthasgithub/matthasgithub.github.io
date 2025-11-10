@@ -23,7 +23,7 @@ layout: home
 <section id="projects">
   <h2>Projects</h2>
   <div class="tile-container">
-    <a href="https://github.com/matthasgithub/power_analysis" class="tile-link" rel="external" target="_blank">
+    <a href="https://github.com/matt-keeley/power_analysis" class="tile-link" rel="external" target="_blank">
       <div class="tile">
         <div>
           <h3>Power Analysis</h3>
@@ -44,7 +44,7 @@ layout: home
         </span>
       </div>
     </a>
-    <a href="https://github.com/matthasgithub/election_sim" class="tile-link" target="_blank">
+    <a href="https://github.com/matt-keeley/election_sim" class="tile-link" target="_blank">
       <div class="tile">
         <div>
           <h3>U.S. Election Simulator</h3>
@@ -66,7 +66,7 @@ layout: home
         </span>
       </div>
     </a>
-    <a href="https://github.com/matthasgithub/unemployment_ML" class="tile-link" target="_blank">
+    <a href="https://github.com/matt-keeley/unemployment_ML" class="tile-link" target="_blank">
       <div class="tile">
         <div>
           <h3>U.S. Unemployment Forecasting</h3>
@@ -133,7 +133,7 @@ layout: home
       <a href="mailto:matt.keeley11@gmail.com" class="contact-link">
         <span>📧</span> Email
       </a>
-      <a href="https://github.com/matthasgithub" class="contact-link" target="_blank">
+      <a href="https://github.com/matt-keeley" class="contact-link" target="_blank">
         <span>💻</span> GitHub
       </a>
       <a href="https://linkedin.com/in/matttkeeley" class="contact-link" target="_blank">
