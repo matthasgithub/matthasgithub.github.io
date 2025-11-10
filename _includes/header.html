@@ -1,0 +1,27 @@
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+    {%- if page_paths -%}
+         <!-- Hamburger icon for mobile -->
+      <button class="mobile-menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <nav class="site-nav">
+          <a class="menu-button" href="#about">About</a>
+          <a class="menu-button" href="#projects">Projects</a>
+          <a class="menu-button" href="#skills">Skills</a>
+          <a class="menu-button" href="#contact">Contact</a>
+          <a class="menu-button" href="#photography">Photography</a>
+      </nav>
+    {%- endif -%}
+  </div>
+</header>
+
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
