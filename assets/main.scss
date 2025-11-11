@@ -263,16 +263,6 @@ section h2::after {
   display: block;
 }
 
-/* Non-linked project tile */
-.tile-container > .tile {
-  cursor: default; /* Remove pointer cursor for tiles without links */
-}
-
-/* Keep pointer cursor for linked tiles */
-.tile-link .tile {
-  cursor: pointer;
-}
-
 .tile {
   background: linear-gradient(135deg, #46819B 0%, #3a6d84 100%);
   color: #FFEFD3;
@@ -284,11 +274,20 @@ section h2::after {
   flex-direction: column;
   justify-content: space-between;
   box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-  cursor: pointer;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Non-linked project tile */
+.tile-container > .tile {
+  cursor: default; /* Remove pointer cursor for tiles without links */
+}
+
+/* Keep pointer cursor for linked tiles */
+.tile-link .tile {
+  cursor: pointer;
 }
 
 .tile::before {
