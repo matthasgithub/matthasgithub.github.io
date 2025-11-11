@@ -87,6 +87,17 @@ layout: home
         </span>
       </div>
     </a>
+    <div class="tile">
+      <div>
+        <h3>Option Trading Algorithm</h3>
+        <p class="project-desc">Automated options trading on AWS using Python and Schwab's WebSocket API to identify and enter hedged opportunities.</p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">AWS</span>
+          <span class="tag">WebSocket API</span>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
