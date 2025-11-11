@@ -182,13 +182,13 @@ layout: home
     <div class="photo-item">
       <img src="{{ '/assets/images/photo3.JPG' | relative_url }}" alt="Twisted Tree">
           <div class="photo-overlay">
-          <span class="photo-title">Twisted Tree</span>
+          <span class="photo-title">Twisted Pine</span>
         </div>
     </div>
     <div class="photo-item">
       <img src="{{ '/assets/images/photo2.JPG' | relative_url }}" alt="Dwarf Foxes">
         <div class="photo-overlay">
-          <span class="photo-title">Pals</span>
+          <span class="photo-title">Dwarf Foxes</span>
         </div>
     </div>
     <div class="photo-item">
