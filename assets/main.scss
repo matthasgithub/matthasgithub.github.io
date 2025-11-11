@@ -263,6 +263,16 @@ section h2::after {
   display: block;
 }
 
+/* Non-linked project tile */
+.tile-container > .tile {
+  cursor: default; /* Remove pointer cursor for tiles without links */
+}
+
+/* Keep pointer cursor for linked tiles */
+.tile-link .tile {
+  cursor: pointer;
+}
+
 .tile {
   background: linear-gradient(135deg, #46819B 0%, #3a6d84 100%);
   color: #FFEFD3;
