@@ -23,7 +23,7 @@ layout: home
 <section id="projects">
   <h2>Projects</h2>
   <div class="tile-container">
-    <a href="https://github.com/matt-keeley/power_analysis" class="tile-link" rel="external" target="_blank">
+    <a href="https://github.com/matt-keeley/power-analysis-anova" class="tile-link" rel="external" target="_blank">
       <div class="tile">
         <div>
           <h3>Power Analysis</h3>
@@ -44,10 +44,10 @@ layout: home
         </span>
       </div>
     </a>
-    <a href="https://github.com/matt-keeley/election_sim" class="tile-link" target="_blank">
+    <a href="https://github.com/matt-keeley/electoral-college-simulator" class="tile-link" target="_blank">
       <div class="tile">
         <div>
-          <h3>U.S. Election Simulator</h3>
+          <h3>Electoral College Simulator</h3>
           <p class="project-desc">Monte Carlo simulation of the 2024 presidential election using web-scraped polling data</p>
           <div class="project-tags">
             <span class="tag">Python</span>
@@ -66,10 +66,10 @@ layout: home
         </span>
       </div>
     </a>
-    <a href="https://github.com/matt-keeley/unemployment_ML" class="tile-link" target="_blank">
+    <a href="https://github.com/matt-keeley/labor-market-forecasting" class="tile-link" target="_blank">
       <div class="tile">
         <div>
-          <h3>U.S. Unemployment Forecasting</h3>
+          <h3>U.S. Labor Market Forecasting</h3>
           <p class="project-desc">State-level unemployment forecasting using BLS data, housing estimates, and machine learning regression</p>
           <div class="project-tags">
             <span class="tag">R</span>
